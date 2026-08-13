@@ -158,7 +158,7 @@ export default function Home() {
       return;
     }
 
-    setVisits((data || []) as Visit[]);
+    setVisits((data || []) as unknown as Visit[]);
   }
 
   function handleCustomerChange(
