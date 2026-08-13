@@ -24,3 +24,149 @@ body {
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
 }
+/* ===== ΚΑΘΑΡΑ / ΣΚΟΥΡΑ ΓΡΑΜΜΑΤΑ ΣΕ ΟΛΗ ΤΗΝ ΕΦΑΡΜΟΓΗ ===== */
+
+body {
+  color: #111827;
+}
+
+/* Όλα τα πεδία */
+input,
+textarea,
+select {
+  color: #111827 !important;
+  background-color: #ffffff !important;
+  opacity: 1 !important;
+  -webkit-text-fill-color: #111827 !important;
+}
+
+/* Τα αχνά γράμματα πριν γράψουμε κάτι */
+input::placeholder,
+textarea::placeholder {
+  color: #4b5563 !important;
+  opacity: 1 !important;
+}
+
+/* Επιλογές στα dropdown */
+select option {
+  color: #111827 !important;
+  background-color: #ffffff !important;
+}
+
+/* Κανονικό κείμενο */
+p,
+span,
+label {
+  color: #1f2937;
+}
+
+/* Τίτλοι */
+h1,
+h2,
+h3,
+h4 {
+  color: #111827;
+}
+
+/* Links */
+a {
+  opacity: 1;
+}
+
+/* Disabled πεδία να παραμένουν ευανάγνωστα */
+input:disabled,
+textarea:disabled,
+select:disabled {
+  color: #374151 !important;
+  opacity: 1 !important;
+  -webkit-text-fill-color: #374151 !important;
+}/* ===== ΠΙΟ ΣΚΟΥΡΑ ΓΡΑΜΜΑΤΑ ΣΕ ΟΛΟ ΤΟ SITE ===== */
+
+html,
+body {
+  color: #000000 !important;
+}
+
+/* Όλα τα βασικά κείμενα */
+p,
+span,
+label,
+div,
+button,
+a,
+li {
+  color: #000000;
+}
+
+/* Τίτλοι */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: #000000 !important;
+}
+
+/* Inputs / textarea / select */
+input,
+textarea,
+select {
+  color: #000000 !important;
+  background-color: #ffffff !important;
+  opacity: 1 !important;
+  -webkit-text-fill-color: #000000 !important;
+  font-weight: 600 !important;
+}
+
+/* Placeholder */
+input::placeholder,
+textarea::placeholder {
+  color: #374151 !important;
+  opacity: 1 !important;
+  -webkit-text-fill-color: #374151 !important;
+}
+
+/* Dropdown επιλογές */
+select option {
+  color: #000000 !important;
+  background-color: #ffffff !important;
+}
+
+/* Τα text-gray classes να μην είναι υπερβολικά αχνά */
+.text-gray-500 {
+  color: #4b5563 !important;
+}
+
+.text-gray-600 {
+  color: #374151 !important;
+}
+
+.text-gray-700 {
+  color: #1f2937 !important;
+}
+
+/* Κείμενα μέσα σε κουμπιά με σκούρο background */
+.bg-blue-950,
+.bg-black {
+  color: #ffffff !important;
+}
+
+.bg-blue-950 *,
+.bg-black * {
+  color: #ffffff !important;
+}
+
+/* Πράσινα / κόκκινα status να παραμένουν καθαρά */
+.text-green-800 {
+  color: #166534 !important;
+}
+
+.text-red-700 {
+  color: #b91c1c !important;
+}
+
+/* Bottom navigation */
+nav button span {
+  font-weight: 800 !important;
+}
